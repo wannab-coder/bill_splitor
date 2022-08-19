@@ -10,7 +10,9 @@ bill_with_tip= tip/100*bill + bill
 
 bill_per_person=bill_with_tip/people
 
-print(f"Bill per person:{bill_per_person}" ) 
+final_bill_per_person=round(bill_per_person)
+
+print(f"Bill per person:${final_bill_per_person}" ) 
 
 
 
